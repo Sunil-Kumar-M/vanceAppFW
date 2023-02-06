@@ -2,7 +2,7 @@
 
 ## Automation installation Guide
 
-### System Requirements
+### System Requirements - Install it in order
 - Install **Node 18** or above and **npm 9.3** or above.
 - Install **Appium 1.22.3** and above.
 - Install **Java 11**
@@ -20,7 +20,7 @@
 1. Download the source code on to your local.
 2. Open intellijIDEA editor.
 3. Import an Existing project from Maven.
-4. Find `master.xml`, `masterWithValue.xml`, `masterParallel.xml` file and open it.
+4. Find `master.xml`, `masterWithValue.xml`, `masterParallel.xml` and `masterParallelWithValue.xml` files in AllRunnerFiles directory and open it.
 5. Provide all the Parameters on `masterWithValue.xml` file like below.
   - `platform` - To select `android` or `iOS`
   - `appPackage` - it should be the bundle ID of the application.
@@ -46,6 +46,8 @@
 1. Open the cmd/terminal navigate to the Automation location.
 2. Type `mvn clean complie` for the first time to make sure all the .jar files loaded on to your machine.
 3. Then enter the command as `mvn clean test -PParallelRun  -DdeviceName1=$DEVICE_ID -DosVersion1=$OS_VERSION -DdeviceName2=$DEVICE_ID -DosVersion2=$OS_VERSION` to run it on local.
+   - Example: `mvn clean test -PParallelRun -DdeviceName1=NRHAZTO7Q8KJUKFY -DosVersion1=12 -DdeviceName2=RZ8M93F2Y7A -DosVersion2=11
+     `
 
 # Rerun failed test cases.
 1. From the main folder navigate to the `testng-failed.xml` file.
@@ -53,7 +55,6 @@
 2. Open the file and Right click and Run it.
 
 
-mvn clean test -PParallelRun -DdeviceName1=NRHAZTO7Q8KJUKFY -DosVersion1=12 -DdeviceName2=RZ8M93F2Y7A -DosVersion2=11
 
 # Reference of Automation Run
 ### Test Methods Result.
