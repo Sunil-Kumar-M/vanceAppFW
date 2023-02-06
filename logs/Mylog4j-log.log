@@ -1,0 +1,11 @@
+[INFO ] 2023-02-06 14:53:32.914 [main] LoggerLoad - Entered this block
+[INFO ] 2023-02-06 14:53:32.920 [main] LoggerLoad - Dummy Load test Printed
+[INFO ] 2023-02-06 16:02:14.577 [main] LoggerLoad - Entered this block
+[INFO ] 2023-02-06 16:02:14.587 [main] LoggerLoad - Dummy Load test Printed
+[INFO ] 2023-02-06 16:09:59.247 [main] LoggerLoad - Entered this block
+[INFO ] 2023-02-06 16:09:59.255 [main] LoggerLoad - Dummy Load test Printed
+[INFO ] 2023-02-06 16:21:57.308 [main] LoggerLoad - START: dummyTest
+[INFO ] 2023-02-06 16:21:57.316 [main] LoggerLoad - Entered this block
+[INFO ] 2023-02-06 16:21:57.316 [main] LoggerLoad - Dummy Load test Printed
+[INFO ] 2023-02-06 16:21:57.320 [main] LoggerLoad - TESTING COMPLETED: - dummyTest
+[INFO ] 2023-02-06 16:21:57.322 [main] LoggerLoad - TEST STOPPED

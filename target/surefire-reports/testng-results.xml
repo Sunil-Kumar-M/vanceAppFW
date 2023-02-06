@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-06T16:21:41 IST" name="Vance Testing Demo APp automation run" finished-at="2023-02-06T16:21:57 IST" duration-ms="16076">
+    <groups>
+    </groups>
+    <test started-at="2023-02-06T16:21:41 IST" name="Actual Device Run" finished-at="2023-02-06T16:21:57 IST" duration-ms="16076">
+      <class name="org.vance.TestImplementation.FirstTest">
+        <test-method is-config="true" signature="beforeSuiteInit()[pri:0, instance:org.vance.TestImplementation.FirstTest@44a59da3]" started-at="2023-02-06T16:21:41 IST" name="beforeSuiteInit" finished-at="2023-02-06T16:21:41 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuiteInit -->
+        <test-method is-config="true" signature="initDriver(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,long,java.lang.String)[pri:0, instance:org.vance.TestImplementation.FirstTest@44a59da3]" started-at="2023-02-06T16:21:41 IST" name="initDriver" finished-at="2023-02-06T16:21:57 IST" duration-ms="16026" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[io.appium.android.apis.ApiDemos]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[NRHAZTO7Q8KJUKFY]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[NRHAZTO7Q8KJUKFY]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[8300]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[4725]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method is-config="true" signature="beforeClassInvoke()[pri:0, instance:org.vance.TestImplementation.FirstTest@44a59da3]" started-at="2023-02-06T16:21:57 IST" name="beforeClassInvoke" finished-at="2023-02-06T16:21:57 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassInvoke -->
+        <test-method signature="dummyTest()[pri:0, instance:org.vance.TestImplementation.FirstTest@44a59da3]" started-at="2023-02-06T16:21:57 IST" name="dummyTest" finished-at="2023-02-06T16:21:57 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dummyTest -->
+        <test-method is-config="true" signature="afterSuiteCompilation()[pri:0, instance:org.vance.TestImplementation.FirstTest@44a59da3]" started-at="2023-02-06T16:21:57 IST" name="afterSuiteCompilation" finished-at="2023-02-06T16:21:58 IST" duration-ms="376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuiteCompilation -->
+      </class> <!-- org.vance.TestImplementation.FirstTest -->
+    </test> <!-- Actual Device Run -->
+  </suite> <!-- Vance Testing Demo APp automation run -->
+</testng-results>

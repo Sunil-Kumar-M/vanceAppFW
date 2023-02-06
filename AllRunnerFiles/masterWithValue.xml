@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Vance Testing Demo APp automation run" preserve-order="true" thread-count="1">
+    <listeners>
+        <listener class-name="org.vance.Report.Listeners"/>
+    </listeners>
+
+    <test verbose="2" preserve-order="true" name="Actual Device Run">
+        <!--Desired Capabilities - Change the below code according to your device specification (DeviceConfiguration.text file)-->
+        <parameter name="platform" value="Android"/>
+        <parameter name="appPackage" value="io.appium.android.apis.ApiDemos"/>
+        <parameter name="deviceName" value="NRHAZTO7Q8KJUKFY"/>
+        <parameter name="udid" value="NRHAZTO7Q8KJUKFY"/>
+        <parameter name="OSversion" value="12"/>
+        <parameter name="wda" value="8100"/>
+        <parameter name="port" value="4723"/>
+
+        <classes>
+            <class name="org.vance.TestImplementation.FirstTest"/>
+        </classes>
+    </test>
+</suite>
