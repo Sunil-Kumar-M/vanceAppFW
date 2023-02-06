@@ -9,3 +9,27 @@
 [INFO ] 2023-02-06 16:21:57.316 [main] LoggerLoad - Dummy Load test Printed
 [INFO ] 2023-02-06 16:21:57.320 [main] LoggerLoad - TESTING COMPLETED: - dummyTest
 [INFO ] 2023-02-06 16:21:57.322 [main] LoggerLoad - TEST STOPPED
+[INFO ] 2023-02-06 19:59:53.343 [main] LoggerLoad - START: dummyTest
+[INFO ] 2023-02-06 19:59:53.351 [main] LoggerLoad - Entered this block
+[INFO ] 2023-02-06 19:59:53.351 [main] LoggerLoad - Dummy Load test Printed
+[INFO ] 2023-02-06 19:59:53.355 [main] LoggerLoad - TESTING COMPLETED: - dummyTest
+[INFO ] 2023-02-06 19:59:53.359 [main] LoggerLoad - TEST STOPPED
+[INFO ] 2023-02-06 20:22:37.870 [main] LoggerLoad - START: appSectionFlowTest
+[ERROR] 2023-02-06 20:22:37.990 [main] LoggerLoad - FAILED : - appSectionFlowTest
+[INFO ] 2023-02-06 20:22:38.006 [main] LoggerLoad - TEST STOPPED
+[INFO ] 2023-02-06 20:25:15.556 [main] LoggerLoad - START: appSectionFlowTest
+[ERROR] 2023-02-06 20:25:25.797 [main] LoggerLoad - FAILED : - appSectionFlowTest
+[INFO ] 2023-02-06 20:25:25.809 [main] LoggerLoad - TEST STOPPED
+[INFO ] 2023-02-06 20:29:43.098 [main] LoggerLoad - START: appSectionFlowTest
+[ERROR] 2023-02-06 20:29:53.500 [main] LoggerLoad - FAILED : - appSectionFlowTest
+[INFO ] 2023-02-06 20:29:53.509 [main] LoggerLoad - TEST STOPPED
+[INFO ] 2023-02-06 20:32:51.349 [main] LoggerLoad - START: appSectionFlowTest
+[INFO ] 2023-02-06 20:32:52.086 [main] LoggerLoad - Title validation response : true
+[INFO ] 2023-02-06 20:32:52.090 [main] LoggerLoad - TESTING COMPLETED: - appSectionFlowTest
+[INFO ] 2023-02-06 20:32:52.093 [main] LoggerLoad - TEST STOPPED
+[INFO ] 2023-02-06 21:07:26.275 [main] LoggerLoad - START: appSectionFlowTest
+[INFO ] 2023-02-06 21:07:26.972 [main] LoggerLoad - Title validation Completed
+[INFO ] 2023-02-06 21:07:27.807 [main] LoggerLoad - Clicked on App Section from list
+[INFO ] 2023-02-06 21:07:35.743 [main] LoggerLoad - Modal Title validation complete
+[INFO ] 2023-02-06 21:07:35.748 [main] LoggerLoad - TESTING COMPLETED: - appSectionFlowTest
+[INFO ] 2023-02-06 21:07:35.751 [main] LoggerLoad - TEST STOPPED

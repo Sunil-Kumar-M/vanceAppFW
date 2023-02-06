@@ -16,7 +16,7 @@
         <parameter name="port" value="4723"/>
 
         <classes>
-            <class name="org.vance.TestImplementation.FirstTest"/>
+            <class name="org.vance.TestImplementation.AppSection"/>
         </classes>
     </test>
 </suite>

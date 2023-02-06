@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="0.011" tests="1" errors="0" skipped="0" failures="0">
+<testsuite name="TestSuite" time="0.019" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="11.0.17+10-LTS-269"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.17\bin"/>
     <property name="osVersion" value="12"/>
-    <property name="maven.multiModuleProjectDirectory" value="D:\GitRepos\vanceAppFW\vanceAPPAutomationTask"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\GitRepos\vanceAPPAutomationTask"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="java.vendor.url" value="https://openjdk.java.net/"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,7 +16,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="D:\GitRepos\vanceAppFW\vanceAPPAutomationTask"/>
+    <property name="user.dir" value="D:\GitRepos\vanceAPPAutomationTask"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="java.runtime.version" value="11.0.17+10-LTS-269"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
@@ -66,5 +66,5 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="dummyTest" classname="org.vance.TestImplementation.FirstTest" time="0.011"/>
+  <testcase name="dummyTest" classname="org.vance.TestImplementation.FirstTest" time="0.019"/>
 </testsuite>

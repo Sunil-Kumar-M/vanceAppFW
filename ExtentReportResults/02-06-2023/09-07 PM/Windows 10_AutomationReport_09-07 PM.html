@@ -43,12 +43,12 @@
         <ul class="nav-right">
           <li class="m-r-10">
             <a href="#">
-              <span class="badge badge-primary">Bright Money Automation</span>
+              <span class="badge badge-primary">Sunil Task Automation</span>
             </a>
           </li>
             <li class="m-r-10">
                 <a href="#">
-                    <span class="badge badge-primary">Feb 6, 2023 04:03:27 PM</span>
+                    <span class="badge badge-primary">Feb 6, 2023 09:07:08 PM</span>
                 </a>
             </li>
         </ul>
@@ -92,12 +92,12 @@
 					<i class="fa fa-exclamation-circle"></i>
 					</a>
 					<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+						<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success pull-right"></span></a>
 						
 						
 						
 						
 						
-						<a class="dropdown-item" status="skip" href="#"><span>Skip</span><span class="status warning pull-right"></span></a>
 						<div class="dropdown-divider"></div>
 						<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
 					</ul>
@@ -106,28 +106,28 @@
 		</div>
 		<div class="test-list-wrapper scrollable">
 			<ul class="test-list-item">
-				<li class="test-item"  status="skip" test-id="1"
+				<li class="test-item"  status="pass" test-id="1"
 					author=""
 					tag=""
 					device="">
-					<div class="status-avatar skip-bg">
-						<i class="fa fa-long-arrow-right text-white"></i>
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
 					</div>
 					<div class="open-test">
 						<div class="test-detail">
-							<p class="name">dummyTest</p>
-							<p class="duration text-sm">0h 0m 0s+2ms</p>
-							<span class="datetime">16:03:34 PM</span>
+							<p class="name">appSectionFlowTest</p>
+							<p class="duration text-sm">0h 0m 9s+474ms</p>
+							<span class="datetime">21:07:26 PM</span>
 						</div>
 					</div>
 					<div class="test-contents d-none">
 						<div class="detail-head">
 							<div class="p-v-10 d-inline-block">
 								<div class="info">
-									<h5 class="test-status text-skip">dummyTest</h5>
-									<span class='badge badge-success'>02.06.2023 16:03:34</span>
-									<span class='badge badge-danger'>02.06.2023 16:03:34</span>
-									<span class='badge badge-default'>0h 0m 0s+2ms</span>
+									<h5 class="test-status text-pass">appSectionFlowTest</h5>
+									<span class='badge badge-success'>02.06.2023 21:07:26</span>
+									<span class='badge badge-danger'>02.06.2023 21:07:35</span>
+									<span class='badge badge-default'>0h 0m 9s+474ms</span>
 								</div>
 								<div class="m-t-10 m-l-5">
 									
@@ -143,10 +143,10 @@
 	</tr></thead>
 	<tbody>
 			<tr class="event-row">
-				<td><i class="fa fa-long-arrow-right text-skip"></i></td>
-				<td>4:03:34 PM</td>
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>9:07:35 PM</td>
 				<td>
-						[InitDriver.initDriver(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,long,java.lang.String)[pri:0, instance:org.vance.TestImplementation.AppSection@42b3b079]]
+						COMPLETED: - appSectionFlowTest
 				</td>
 			</tr>
 	</tbody>
@@ -185,13 +185,13 @@
 					</div>
 				</div>
 				<div class="card-footer">
-					<div><small data-tooltip='0%'>
-						<b>0</b> tests passed
+					<div><small data-tooltip='100%'>
+						<b>1</b> tests passed
 						</small>
 					</div>
 					<div>
 						<small data-tooltip='0%'><b>0</b> tests failed, 
-						<b>1</b> skipped, <b data-tooltip='0%'>0</b> others
+						<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
 						</small>
 					</div>
 				</div>
@@ -208,10 +208,10 @@
 					</div>
 				</div>
 				<div class="card-footer">
-					<div><small data-tooltip='0%'><b>0</b> events passed</small></div>
+					<div><small data-tooltip='100%'><b>1</b> events passed</small></div>
 					<div>
 						<small data-tooltip='0%'><b>0</b> events failed, 
-						<b data-tooltip='100%'>1</b> others
+						<b data-tooltip='0%'>0</b> others
 						</small>
 					</div>
 				</div>
@@ -228,7 +228,7 @@
 							<h2 class="font-size-28 font-weight-light mt-3">1</h2>
 							<span class="text-semibold text-success font-size-15">
 							<i class="ti-arrow-up font-size-11"></i> 
-							<span>.00%</span>
+							<span>100.00%</span>
 							</span>
 						</div>
 						<div class="align-self-end">
@@ -244,7 +244,7 @@
 					<div class="media justify-content-between">
 						<div class="card-header">
 							<h6 class="card-title">Start</h6>
-							<h4 class="font-weight-light mt-4">Feb 6, 2023 04:03:27 PM</h4>
+							<h4 class="font-weight-light mt-4">Feb 6, 2023 09:07:08 PM</h4>
 							<span class="text-semibold text-success font-size-15">
 						</div>
 						<div class="align-self-end">
@@ -260,7 +260,7 @@
 					<div class="media justify-content-between">
 						<div class="card-header">
 							<h6 class="card-title">Duration</h6>
-							<h4 class="font-weight-light mt-4">0h 0m 6s+324ms</h4>
+							<h4 class="font-weight-light mt-4">0h 0m 27s+620ms</h4>
 							<span class="text-semibold font-size-15">
 						</div>
 						<div class="align-self-end">
@@ -326,13 +326,13 @@
 <script>
 	var statusGroup = {
 	    parentCount: 1,
-		passParent: 0,
+		passParent: 1,
 		failParent: 0,
 		fatalParent: 0,
 		errorParent: 0,
 		warningParent: 0,
-		skipParent: 1,
-		exceptionsParent: 1,
+		skipParent: 0,
+		exceptionsParent: 0,
 		childCount: 0,
 		passChild: 0,
 		failChild: 0,
@@ -354,12 +354,12 @@
 		debugGrandChild: 0,
 		exceptionsGrandChild: 0,
 		eventsCount: 1,
-		passEvents: 0,
+		passEvents: 1,
 		failEvents: 0,
 		fatalEvents: 0,
 		errorEvents: 0,
 		warningEvents: 0,
-		skipEvents: 1,
+		skipEvents: 0,
 		infoEvents: 0,
 		debugEvents: 0,
 		exceptionsEvents: 0
@@ -367,7 +367,7 @@
 </script>
 <script>
 	var timeline = {
-	        "dummyTest":0.002
+	        "appSectionFlowTest":9.474
 	};
 </script>
                 </div>
