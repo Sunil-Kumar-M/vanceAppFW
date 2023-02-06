@@ -36,6 +36,7 @@ public class AleertDialogsObject {
     private WebElement listDialogCTA;
 
     @AndroidFindBy(accessibility = "Progress dialog")
+
     @iOSXCUITBy(accessibility = "")
     private WebElement progressDialogCTA;
 
@@ -72,8 +73,8 @@ public class AleertDialogsObject {
     private WebElement modalTitle;
 
     public String getCancelDialogHandler(){
-        cancelDialogWithMessageCTA.click();
         alertDialogsList.click();
+        cancelDialogWithMessageCTA.click();
         String title = modalTitle.getText(); //Lorem ipsum dolor sit aie consectetur adipiscing Plloaso mako nuto siwuf cakso dodtos anr koop.
         modalButton1.click(); // Click on OK CTA.
         return title;

@@ -33,3 +33,25 @@
 [INFO ] 2023-02-06 21:07:35.743 [main] LoggerLoad - Modal Title validation complete
 [INFO ] 2023-02-06 21:07:35.748 [main] LoggerLoad - TESTING COMPLETED: - appSectionFlowTest
 [INFO ] 2023-02-06 21:07:35.751 [main] LoggerLoad - TEST STOPPED
+[INFO ] 2023-02-06 21:47:29.330 [main] LoggerLoad - START: appSectionFlowTest
+[INFO ] 2023-02-06 21:47:29.339 [main] LoggerLoad - TEST STOPPED
+[INFO ] 2023-02-06 21:49:03.036 [main] LoggerLoad - START: appSectionFlowTest
+[INFO ] 2023-02-06 21:49:03.047 [main] LoggerLoad - TEST STOPPED
+[INFO ] 2023-02-06 21:52:31.671 [main] LoggerLoad - START: appSectionFlowTest
+[INFO ] 2023-02-06 21:52:32.381 [main] LoggerLoad - Title validation Completed
+[INFO ] 2023-02-06 21:52:33.228 [main] LoggerLoad - Clicked on App Section from list
+[ERROR] 2023-02-06 21:52:43.354 [main] LoggerLoad - FAILED : - appSectionFlowTest
+[INFO ] 2023-02-06 21:52:43.363 [main] LoggerLoad - TEST STOPPED
+[INFO ] 2023-02-06 21:52:47.956 [main] LoggerLoad - START: appSectionFlowTest
+[INFO ] 2023-02-06 21:52:47.957 [main] LoggerLoad - TEST STOPPED
+[INFO ] 2023-02-06 22:07:42.593 [main] LoggerLoad - START: appSectionFlowTest
+[INFO ] 2023-02-06 22:07:43.245 [main] LoggerLoad - Title validation Completed
+[INFO ] 2023-02-06 22:07:44.084 [main] LoggerLoad - Clicked on App Section from list
+[ERROR] 2023-02-06 22:08:02.985 [main] LoggerLoad - FAILED : - appSectionFlowTest
+[INFO ] 2023-02-06 22:08:02.992 [main] LoggerLoad - TEST STOPPED
+[INFO ] 2023-02-06 22:09:14.635 [main] LoggerLoad - START: appSectionFlowTest
+[INFO ] 2023-02-06 22:09:15.495 [main] LoggerLoad - Title validation Completed
+[INFO ] 2023-02-06 22:09:16.545 [main] LoggerLoad - Clicked on App Section from list
+[INFO ] 2023-02-06 22:09:32.877 [main] LoggerLoad - Modal Title validation complete
+[INFO ] 2023-02-06 22:09:32.878 [main] LoggerLoad - TESTING COMPLETED: - appSectionFlowTest
+[INFO ] 2023-02-06 22:09:32.878 [main] LoggerLoad - TEST STOPPED

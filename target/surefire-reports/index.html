@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Vance_Testing_Demo_APp_automation_run" class="navigator-link">
-              <span class="suite-name border-passed">Vance Testing Demo APp automation run</span>
+              <span class="suite-name border-skipped">Vance Testing Demo APp automation run</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,21 +92,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">1 method,  1 skipped,  </span>
                   </li>
                   <li>
-                    <span class="method-list-title passed">Passed methods</span>
-                    <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Vance_Testing_Demo_APp_automation_run" class="hide-methods passed suite-Vance_Testing_Demo_APp_automation_run"> (hide)</a> <!-- hide-methods passed suite-Vance_Testing_Demo_APp_automation_run -->
-                      <a href="#" panel-name="suite-Vance_Testing_Demo_APp_automation_run" class="show-methods passed suite-Vance_Testing_Demo_APp_automation_run"> (show)</a> <!-- show-methods passed suite-Vance_Testing_Demo_APp_automation_run -->
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Vance_Testing_Demo_APp_automation_run" class="hide-methods skipped suite-Vance_Testing_Demo_APp_automation_run"> (hide)</a> <!-- hide-methods skipped suite-Vance_Testing_Demo_APp_automation_run -->
+                      <a href="#" panel-name="suite-Vance_Testing_Demo_APp_automation_run" class="show-methods skipped suite-Vance_Testing_Demo_APp_automation_run"> (show)</a> <!-- show-methods skipped suite-Vance_Testing_Demo_APp_automation_run -->
                     </span>
-                    <div class="method-list-content passed suite-Vance_Testing_Demo_APp_automation_run">
+                    <div class="method-list-content skipped suite-Vance_Testing_Demo_APp_automation_run">
                       <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Vance_Testing_Demo_APp_automation_run" title="org.vance.TestImplementation.FirstTest" class="method navigator-link" hash-for-method="dummyTest">dummyTest</a> <!-- method navigator-link -->
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Vance_Testing_Demo_APp_automation_run" title="org.vance.TestImplementation.AppSection" class="method navigator-link" hash-for-method="appSectionFlowTest">appSectionFlowTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-Vance_Testing_Demo_APp_automation_run -->
+                    </div> <!-- method-list-content skipped suite-Vance_Testing_Demo_APp_automation_run -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -118,21 +118,78 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Vance_Testing_Demo_APp_automation_run" class="panel Vance_Testing_Demo_APp_automation_run">
-          <div class="suite-Vance_Testing_Demo_APp_automation_run-class-passed">
+          <div class="suite-Vance_Testing_Demo_APp_automation_run-class-skipped">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">org.vance.TestImplementation.FirstTest</span>
+              <img src="skipped.png"/>
+              <span class="class-name">org.vance.TestImplementation.AppSection</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="dummyTest">
-                  </a> <!-- dummyTest -->
-                  <span class="method-name">dummyTest</span>
+                  <a name="appSectionFlowTest">
+                  </a> <!-- appSectionFlowTest -->
+                  <span class="method-name">appSectionFlowTest</span>
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Error getting device platform version. Original error: Error executing adbExec. Original error: &apos;Command &apos;&apos;C:\\Users\\Sunil Kumar\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe&apos; -P 5037 -s RZ8M93F2Y7A shell getprop ro.build.version.release&apos; exited with code 1&apos;; Command output: adb.exe: device unauthorized.
+This adb server&apos;s $ADB_VENDOR_KEYS is not set
+Try &apos;adb kill-server&apos; if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+ 
+Host info: host: &apos;SUNIL&apos;, ip: &apos;192.168.1.116&apos;
+Build info: version: &apos;4.8.0&apos;, revision: &apos;267030adea&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.17&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:app=./src/main/resources/APIApp.apk, appium:appActivity=io.appium.android.apis.ApiDemos, appium:appPackage=io.appium.android.apis, appium:automationName=UiAutomator2, appium:deviceId=${deviceName}, appium:deviceName=${deviceName}, appium:newCommandTimeout=300, appium:noReset=true, platformName=ANDROID, appium:platformVersion=${osVersion}}], desiredCapabilities=Capabilities {app: ./src/main/resources/APIApp..., appActivity: io.appium.android.apis.ApiD..., appPackage: io.appium.android.apis, automationName: UiAutomator2, deviceId: ${deviceName}, deviceName: ${deviceName}, newCommandTimeout: 300, noReset: true, platformName: ANDROID, platformVersion: ${osVersion}}}]
+Capabilities {}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:148)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:194)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:229)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:157)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:80)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:92)
+	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:117)
+	at org.vance.Base.ProjectBase.androidCapabilitiesSetup(ProjectBase.java:66)
+	at org.vance.Base.InitDriver.initDriver(InitDriver.java:23)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:644)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:633)
+	at org.testng.TestRunner.run(TestRunner.java:595)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Vance_Testing_Demo_APp_automation_run-class-passed -->
+          </div> <!-- suite-Vance_Testing_Demo_APp_automation_run-class-skipped -->
         </div> <!-- panel Vance_Testing_Demo_APp_automation_run -->
         <div panel-name="test-xml-Vance_Testing_Demo_APp_automation_run" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -148,14 +205,14 @@
   &lt;/listeners&gt;
   &lt;test thread-count=&quot;1&quot; name=&quot;Actual Device Run&quot; verbose=&quot;2&quot;&gt;
     &lt;parameter name=&quot;appPackage&quot; value=&quot;io.appium.android.apis.ApiDemos&quot;/&gt;
-    &lt;parameter name=&quot;OSversion&quot; value=&quot;12&quot;/&gt;
+    &lt;parameter name=&quot;OSversion&quot; value=&quot;${osVersion}&quot;/&gt;
     &lt;parameter name=&quot;wda&quot; value=&quot;8300&quot;/&gt;
     &lt;parameter name=&quot;port&quot; value=&quot;4725&quot;/&gt;
-    &lt;parameter name=&quot;udid&quot; value=&quot;NRHAZTO7Q8KJUKFY&quot;/&gt;
-    &lt;parameter name=&quot;deviceName&quot; value=&quot;NRHAZTO7Q8KJUKFY&quot;/&gt;
+    &lt;parameter name=&quot;udid&quot; value=&quot;${deviceName}&quot;/&gt;
+    &lt;parameter name=&quot;deviceName&quot; value=&quot;${deviceName}&quot;/&gt;
     &lt;parameter name=&quot;platform&quot; value=&quot;Android&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;org.vance.TestImplementation.FirstTest&quot;/&gt;
+      &lt;class name=&quot;org.vance.TestImplementation.AppSection&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Actual Device Run --&gt;
 &lt;/suite&gt; &lt;!-- Vance Testing Demo APp automation run --&gt;
@@ -197,14 +254,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'dummyTest')
-data.setCell(0, 2, 'org.vance.TestImplementation.FirstTest')
-data.setCell(0, 3, 16);
+data.setCell(0, 1, 'appSectionFlowTest')
+data.setCell(0, 2, 'org.vance.TestImplementation.AppSection')
+data.setCell(0, 3, 0);
 window.suiteTableData['Vance_Testing_Demo_APp_automation_run']= { tableData: data, tableDiv: 'times-div-Vance_Testing_Demo_APp_automation_run'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 16 ms</span>
+              <span class="suite-total-time">Total running time: 0 ms</span>
               <div id="times-div-Vance_Testing_Demo_APp_automation_run">
               </div> <!-- times-div-Vance_Testing_Demo_APp_automation_run -->
             </div> <!-- times-div -->
@@ -230,26 +287,28 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">org.vance.TestImplementation.FirstTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">org.vance.TestImplementation.AppSection</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
                 <span class="method-name">beforeSuiteInit</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="configuration-test before">
-                <span class="method-name">initDriver(Android, io.appium.android.apis.ApiDemos, NRHAZTO7Q8KJUKFY, NRHAZTO7Q8KJUKFY, 12, 8300, 4725)</span>
-                <span class="method-start">25 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">initDriver(Android, io.appium.android.apis.ApiDemos, ${deviceName}, ${deviceName}, ${osVersion}, 8300, 4725)</span>
+                <span class="method-start">29 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClassInvoke</span>
-                <span class="method-start">19035 ms</span>
+                <span class="method-start">5312 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">dummyTest</span>
-                <span class="method-start">19043 ms</span>
+                <span class="method-name">appSectionFlowTest</span>
+                <span class="method-start">5326 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-suite after">
                 <span class="method-name">afterSuiteCompilation</span>
-                <span class="method-start">19395 ms</span>
+                <span class="method-start">5777 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

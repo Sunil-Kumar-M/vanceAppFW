@@ -51,3 +51,6 @@
 1. From the main folder navigate to the `testng-failed.xml` file.
    path of the file will be like - `<user.directory>/vanceAPPAutomationTask/target/surefire-reports/testng-failed.html`.
 2. Open the file and Right click and Run it.
+
+
+mvn clean test -PParallelRun -DdeviceName1=NRHAZTO7Q8KJUKFY -DosVersion1=12 -DdeviceName2=RZ8M93F2Y7A -DosVersion2=11

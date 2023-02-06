@@ -1,6 +1,7 @@
 org\vance\PageObjects\Dashboard\DashboardScreenObject.class
 org\vance\Report\Listeners.class
 org\vance\Base\InitDriver.class
+org\vance\PageObjects\Dashboard\AleertDialogsObject.class
 org\vance\Base\ProjectBase.class
 org\vance\Report\ExtentReportiNG.class
 org\vance\Report\LoggerLoad.class
