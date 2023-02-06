@@ -55,3 +55,17 @@
 [INFO ] 2023-02-06 22:09:32.877 [main] LoggerLoad - Modal Title validation complete
 [INFO ] 2023-02-06 22:09:32.878 [main] LoggerLoad - TESTING COMPLETED: - appSectionFlowTest
 [INFO ] 2023-02-06 22:09:32.878 [main] LoggerLoad - TEST STOPPED
+[INFO ] 2023-02-06 22:28:38.241 [main] LoggerLoad - START: appSectionFlowTest
+[INFO ] 2023-02-06 22:28:38.250 [main] LoggerLoad - TEST STOPPED
+[INFO ] 2023-02-06 22:30:25.038 [TestNG-tests-2] LoggerLoad - START: appSectionFlowTest
+[INFO ] 2023-02-06 22:30:25.741 [TestNG-tests-2] LoggerLoad - Title validation Completed
+[INFO ] 2023-02-06 22:30:26.815 [TestNG-tests-2] LoggerLoad - Clicked on App Section from list
+[INFO ] 2023-02-06 22:30:28.211 [TestNG-tests-1] LoggerLoad - START: appSectionFlowTest
+[INFO ] 2023-02-06 22:30:28.982 [TestNG-tests-1] LoggerLoad - Title validation Completed
+[INFO ] 2023-02-06 22:30:29.192 [TestNG-tests-2] LoggerLoad - Modal Title validation complete
+[INFO ] 2023-02-06 22:30:29.196 [TestNG-tests-2] LoggerLoad - TESTING COMPLETED: - appSectionFlowTest
+[INFO ] 2023-02-06 22:30:29.198 [TestNG-tests-2] LoggerLoad - TEST STOPPED
+[INFO ] 2023-02-06 22:30:29.815 [TestNG-tests-1] LoggerLoad - Clicked on App Section from list
+[INFO ] 2023-02-06 22:30:31.591 [TestNG-tests-1] LoggerLoad - Modal Title validation complete
+[INFO ] 2023-02-06 22:30:31.594 [TestNG-tests-1] LoggerLoad - TESTING COMPLETED: - appSectionFlowTest
+[INFO ] 2023-02-06 22:30:31.594 [TestNG-tests-1] LoggerLoad - TEST STOPPED

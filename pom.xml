@@ -85,7 +85,7 @@
                                     <os_version>${osVersion2}</os_version>
                                 </systemPropertyVariables>
                                 <suiteXmlFiles>
-                                    <suiteXmlFile>AllRunnerFiles/master.xml</suiteXmlFile>
+                                    <suiteXmlFile>AllRunnerFiles/masterParallel.xml</suiteXmlFile>
                                 </suiteXmlFiles>
                             </configuration>
                         </plugin>

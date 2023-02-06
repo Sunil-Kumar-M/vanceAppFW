@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="6.234" tests="4" errors="0" skipped="3" failures="1">
+<testsuite name="TestSuite" time="4.516" tests="3" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="11.0.17+10-LTS-269"/>
@@ -68,35 +68,11 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="initDriver" classname="org.vance.TestImplementation.AppSection" time="6.234">
-    <failure message="Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Error getting device platform version. Original error: Error executing adbExec. Original error: &apos;Command &apos;&apos;C:\\Users\\Sunil Kumar\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe&apos; -P 5037 -s RZ8M93F2Y7A shell getprop ro.build.version.release&apos; exited with code 1&apos;; Command output: adb.exe: device unauthorized.&#10;This adb server&apos;s $ADB_VENDOR_KEYS is not set&#10;Try &apos;adb kill-server&apos; if that seems wrong.&#10;Otherwise check for a confirmation dialog on your device.&#10; &#10;Host info: host: &apos;SUNIL&apos;, ip: &apos;192.168.1.116&apos;&#10;Build info: version: &apos;4.8.0&apos;, revision: &apos;267030adea&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.17&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Command: [null, newSession {capabilities=[{appium:app=./src/main/resources/APIApp.apk, appium:appActivity=io.appium.android.apis.ApiDemos, appium:appPackage=io.appium.android.apis, appium:automationName=UiAutomator2, appium:deviceId=${deviceName}, appium:deviceName=${deviceName}, appium:newCommandTimeout=300, appium:noReset=true, platformName=ANDROID, appium:platformVersion=${osVersion}}], desiredCapabilities=Capabilities {app: ./src/main/resources/APIApp..., appActivity: io.appium.android.apis.ApiD..., appPackage: io.appium.android.apis, automationName: UiAutomator2, deviceId: ${deviceName}, deviceName: ${deviceName}, newCommandTimeout: 300, noReset: true, platformName: ANDROID, platformVersion: ${osVersion}}}]&#10;Capabilities {}" type="org.openqa.selenium.SessionNotCreatedException"><![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Error getting device platform version. Original error: Error executing adbExec. Original error: 'Command ''C:\\Users\\Sunil Kumar\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe' -P 5037 -s RZ8M93F2Y7A shell getprop ro.build.version.release' exited with code 1'; Command output: adb.exe: device unauthorized.
-This adb server's $ADB_VENDOR_KEYS is not set
-Try 'adb kill-server' if that seems wrong.
-Otherwise check for a confirmation dialog on your device.
- 
-Host info: host: 'SUNIL', ip: '192.168.1.116'
-Build info: version: '4.8.0', revision: '267030adea'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
-Driver info: io.appium.java_client.android.AndroidDriver
-Command: [null, newSession {capabilities=[{appium:app=./src/main/resources/APIApp.apk, appium:appActivity=io.appium.android.apis.ApiDemos, appium:appPackage=io.appium.android.apis, appium:automationName=UiAutomator2, appium:deviceId=${deviceName}, appium:deviceName=${deviceName}, appium:newCommandTimeout=300, appium:noReset=true, platformName=ANDROID, appium:platformVersion=${osVersion}}], desiredCapabilities=Capabilities {app: ./src/main/resources/APIApp..., appActivity: io.appium.android.apis.ApiD..., appPackage: io.appium.android.apis, automationName: UiAutomator2, deviceId: ${deviceName}, deviceName: ${deviceName}, newCommandTimeout: 300, noReset: true, platformName: ANDROID, platformVersion: ${osVersion}}}]
-Capabilities {}
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:148)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
-	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
-	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:194)
-	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:229)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
-	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:80)
-	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:92)
-	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:117)
-	at org.vance.Base.ProjectBase.androidCapabilitiesSetup(ProjectBase.java:66)
-	at org.vance.Base.InitDriver.initDriver(InitDriver.java:23)
+  <testcase name="appSectionFlowTest" classname="org.vance.TestImplementation.AppSection" time="1.058"/>
+  <testcase name="appSectionFlowTest" classname="org.vance.TestImplementation.AppSection" time="3.451"/>
+  <testcase name="afterSuiteCompilation" classname="org.vance.TestImplementation.AppSection" time="3.458">
+    <failure type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at org.vance.Base.InitDriver.afterSuiteCompilation(InitDriver.java:48)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -105,12 +81,7 @@ Capabilities {}
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
 	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
 	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
-	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:644)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:633)
-	at org.testng.TestRunner.run(TestRunner.java:595)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:404)
 	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
 	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
 	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
@@ -124,221 +95,8 @@ Capabilities {}
 	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
-]]></failure>
-    <system-out><![CDATA[Before Suite got invoked
-&amp#27;[35m[Appium]&amp#27;[39m Welcome to Appium v1.22.3
-&amp#27;[35m[Appium]&amp#27;[39m Non-default server args:
-&amp#27;[35m[Appium]&amp#27;[39m   port: 4725
-&amp#27;[35m[Appium]&amp#27;[39m   basePath: /wd/hub/
-&amp#27;[35m[Appium]&amp#27;[39m Appium REST http interface listener started on 0.0.0.0:4725
-&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mGET&amp#27;[39m &amp#27;[37m/wd/hub/status&amp#27;[39m
-&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{}&amp#27;[39m
-[debug] &amp#27;[35m[GENERIC]&amp#27;[39m Calling AppiumDriver.getStatus() with args: []
-[debug] &amp#27;[35m[GENERIC]&amp#27;[39m Responding to client with driver.getStatus() result: {"build":{"version":"1.22.3"}}
-&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- GET /wd/hub/status &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m11 ms - 68&amp#27;[39m
-&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
-[debug] &amp#27;[35m[HTTP]&amp#27;[39m Request idempotency key: 12180124-8567-4f98-af82-aeab52078155
-&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session&amp#27;[39m
-&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"capabilities":{"firstMatch":[{}],"alwaysMatch":{"appium:app":"./src/main/resources/APIApp.apk","appium:appActivity":"io.appium.android.apis.ApiDemos","appium:appPackage":"io.appium.android.apis","appium:automationName":"UiAutomator2","appium:deviceId":"${deviceName}","appium:deviceName":"${deviceName}","appium:newCommandTimeout":"300","appium:noReset":true,"appium:platformVersion":"${osVersion}","platformName":"android"}}}&amp#27;[39m
-[debug] &amp#27;[35m[W3C]&amp#27;[39m Calling AppiumDriver.createSession() with args: [null,null,{"firstMatch":[{}],"alwaysMatch":{"appium:app":"./src/main/resources/APIApp.apk","appium:appActivity":"io.appium.android.apis.ApiDemos","appium:appPackage":"io.appium.android.apis","appium:automationName":"UiAutomator2","appium:deviceId":"${deviceName}","appium:deviceName":"${deviceName}","appium:newCommandTimeout":"300","appium:noReset":true,"appium:platformVersion":"${osVersion}","platformName":"android"}}]
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Event 'newSessionRequested' logged at 1675700342284 (21:49:02 GMT+0530 (India Standard Time))
-&amp#27;[35m[BaseDriver]&amp#27;[39m Number capability passed in as string. Functionality may be compromised.
-&amp#27;[35m[Appium]&amp#27;[39m Appium v1.22.3 creating new AndroidUiautomator2Driver (v1.70.1) session
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Creating session with W3C capabilities: {
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m   "alwaysMatch": {
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "platformName": "android",
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:app": "./src/main/resources/APIApp.apk",
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:appActivity": "io.appium.android.apis.ApiDemos",
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:appPackage": "io.appium.android.apis",
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:automationName": "UiAutomator2",
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:deviceId": "${deviceName}",
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:deviceName": "${deviceName}",
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:newCommandTimeout": "300",
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:noReset": true,
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:platformVersion": "${osVersion}"
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m   },
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m   "firstMatch": [
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     {}
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m   ]
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m }
-&amp#27;[35m[BaseDriver]&amp#27;[39m Number capability passed in as string. Functionality may be compromised.
-&amp#27;[35m[BaseDriver]&amp#27;[39m Capability 'newCommandTimeout' changed from string ('300') to integer (300). This may cause unexpected behavior
-&amp#27;[35m[BaseDriver]&amp#27;[39m The following capabilities were provided, but are not recognized by Appium:
-&amp#27;[35m[BaseDriver]&amp#27;[39m   deviceId
-&amp#27;[35m[BaseDriver]&amp#27;[39m Session created with session id: 0dcf896b-fd37-4f05-887a-963b4b0d4795
-&amp#27;[35m[BaseDriver]&amp#27;[39m Using local app './src/main/resources/APIApp.apk'
-&amp#27;[35m[BaseDriver]&amp#27;[39m The current application path './src/main/resources/APIApp.apk' is not absolute and has been rewritten to 'D:\GitRepos\vanceAPPAutomationTask\src\main\resources\APIApp.apk'. Consider using absolute paths rather than relative
-[debug] &amp#27;[35m[UiAutomator2]&amp#27;[39m Checking whether app is actually present
-&amp#27;[35m[ADB]&amp#27;[39m Found 2 'build-tools' folders under 'C:\Users\Sunil Kumar\AppData\Local\Android\Sdk' (newest first):
-&amp#27;[35m[ADB]&amp#27;[39m     C:/Users/Sunil Kumar/AppData/Local/Android/Sdk/build-tools/33.0.1
-&amp#27;[35m[ADB]&amp#27;[39m     C:/Users/Sunil Kumar/AppData/Local/Android/Sdk/build-tools/30.0.3
-&amp#27;[35m[ADB]&amp#27;[39m Using 'adb.exe' from 'C:\Users\Sunil Kumar\AppData\Local\Android\Sdk\platform-tools\adb.exe'
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\Sunil Kumar\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 start-server'
-&amp#27;[35m[AndroidDriver]&amp#27;[39m Retrieving device list
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Trying to find a connected android device
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Getting connected devices
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Connected devices: [{"udid":"NRHAZTO7Q8KJUKFY","state":"device"},{"udid":"RZ8M93F2Y7A","state":"unauthorized"}]
-&amp#27;[35m[AndroidDriver]&amp#27;[39m Looking for a device with Android '${osVersion}'
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Setting device id to NRHAZTO7Q8KJUKFY
-&amp#27;[35m[ADB]&amp#27;[39m Getting device platform version
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\Sunil Kumar\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s NRHAZTO7Q8KJUKFY shell getprop ro.build.version.release'
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Current device property 'ro.build.version.release': 12
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Setting device id to RZ8M93F2Y7A
-&amp#27;[35m[ADB]&amp#27;[39m Getting device platform version
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\Sunil Kumar\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s RZ8M93F2Y7A shell getprop ro.build.version.release'
-[debug] &amp#27;[35m[UiAutomator2]&amp#27;[39m Deleting UiAutomator2 session
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Event 'newSessionStarted' logged at 1675700342851 (21:49:02 GMT+0530 (India Standard Time))
-[debug] &amp#27;[35m[W3C]&amp#27;[39m Encountered internal error running command: Error: Error getting device platform version. Original error: Error executing adbExec. Original error: 'Command ''C:\\Users\\Sunil Kumar\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe' -P 5037 -s RZ8M93F2Y7A shell getprop ro.build.version.release' exited with code 1'; Command output: adb.exe: device unauthorized.
-[debug] &amp#27;[35m[W3C]&amp#27;[39m This adb server's $ADB_VENDOR_KEYS is not set
-[debug] &amp#27;[35m[W3C]&amp#27;[39m Try 'adb kill-server' if that seems wrong.
-[debug] &amp#27;[35m[W3C]&amp#27;[39m Otherwise check for a confirmation dialog on your device.
-[debug] &amp#27;[35m[W3C]&amp#27;[39m 
-[debug] &amp#27;[35m[W3C]&amp#27;[39m     at ADB.getPlatformVersion (C:\Users\Sunil Kumar\AppData\Roaming\npm\node_modules\appium\node_modules\appium-adb\lib\tools\adb-commands.js:176:11)
-[debug] &amp#27;[35m[W3C]&amp#27;[39m     at Object.getDeviceInfoFromCaps (C:\Users\Sunil Kumar\AppData\Roaming\npm\node_modules\appium\node_modules\appium-android-driver\lib\android-helpers.js:249:29)
-[debug] &amp#27;[35m[W3C]&amp#27;[39m     at AndroidUiautomator2Driver.startUiAutomator2Session (C:\Users\Sunil Kumar\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-driver\lib\driver.js:338:26)
-[debug] &amp#27;[35m[W3C]&amp#27;[39m     at AndroidUiautomator2Driver.createSession (C:\Users\Sunil Kumar\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-driver\lib\driver.js:229:7)
-[debug] &amp#27;[35m[W3C]&amp#27;[39m     at AppiumDriver.createSession (C:\Users\Sunil Kumar\AppData\Roaming\npm\node_modules\appium\lib\appium.js:387:35)
-&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session &amp#27;[39m&amp#27;[31m500&amp#27;[39m &amp#27;[90m614 ms - 1555&amp#27;[39m
-&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
-]]></system-out>
-    <system-err><![CDATA[SLF4J: No SLF4J providers were found.
-SLF4J: Defaulting to no-operation (NOP) logger implementation
-SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
-]]></system-err>
-  </testcase>
-  <testcase name="beforeClassInvoke" classname="org.vance.TestImplementation.AppSection" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="appSectionFlowTest" classname="org.vance.TestImplementation.AppSection" time="0">
-    <skipped/>
-    <system-out><![CDATA[[INFO ] 2023-02-06 21:49:03.036 [main] LoggerLoad - START: appSectionFlowTest
-]]></system-out>
-  </testcase>
-  <testcase name="afterSuiteCompilation" classname="org.vance.TestImplementation.AppSection" time="0">
-    <skipped/>
-    <system-out><![CDATA[[INFO ] 2023-02-06 21:49:03.047 [main] LoggerLoad - TEST STOPPED
-FAILED CONFIGURATION: @BeforeTest org.vance.Base.InitDriver.initDriver("Android", "io.appium.android.apis.ApiDemos", "${deviceName}", "${deviceName}", "${osVersion}", 8300, "4725")
-org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Error getting device platform version. Original error: Error executing adbExec. Original error: 'Command ''C:\\Users\\Sunil Kumar\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe' -P 5037 -s RZ8M93F2Y7A shell getprop ro.build.version.release' exited with code 1'; Command output: adb.exe: device unauthorized.
-This adb server's $ADB_VENDOR_KEYS is not set
-Try 'adb kill-server' if that seems wrong.
-Otherwise check for a confirmation dialog on your device.
- 
-Host info: host: 'SUNIL', ip: '192.168.1.116'
-Build info: version: '4.8.0', revision: '267030adea'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
-Driver info: io.appium.java_client.android.AndroidDriver
-Command: [null, newSession {capabilities=[{appium:app=./src/main/resources/APIApp.apk, appium:appActivity=io.appium.android.apis.ApiDemos, appium:appPackage=io.appium.android.apis, appium:automationName=UiAutomator2, appium:deviceId=${deviceName}, appium:deviceName=${deviceName}, appium:newCommandTimeout=300, appium:noReset=true, platformName=ANDROID, appium:platformVersion=${osVersion}}], desiredCapabilities=Capabilities {app: ./src/main/resources/APIApp..., appActivity: io.appium.android.apis.ApiD..., appPackage: io.appium.android.apis, automationName: UiAutomator2, deviceId: ${deviceName}, deviceName: ${deviceName}, newCommandTimeout: 300, noReset: true, platformName: ANDROID, platformVersion: ${osVersion}}}]
-Capabilities {}
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:148)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
-	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
-	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:194)
-	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:229)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
-	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:80)
-	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:92)
-	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:117)
-	at org.vance.Base.ProjectBase.androidCapabilitiesSetup(ProjectBase.java:66)
-	at org.vance.Base.InitDriver.initDriver(InitDriver.java:23)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
-	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:644)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:633)
-	at org.testng.TestRunner.run(TestRunner.java:595)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-	at org.testng.TestNG.runSuites(TestNG.java:1099)
-	at org.testng.TestNG.run(TestNG.java:1067)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
-
-SKIPPED CONFIGURATION: @BeforeClass org.vance.Base.InitDriver.beforeClassInvoke
-SKIPPED: org.vance.TestImplementation.AppSection.appSectionFlowTest
-org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Error getting device platform version. Original error: Error executing adbExec. Original error: 'Command ''C:\\Users\\Sunil Kumar\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe' -P 5037 -s RZ8M93F2Y7A shell getprop ro.build.version.release' exited with code 1'; Command output: adb.exe: device unauthorized.
-This adb server's $ADB_VENDOR_KEYS is not set
-Try 'adb kill-server' if that seems wrong.
-Otherwise check for a confirmation dialog on your device.
- 
-Host info: host: 'SUNIL', ip: '192.168.1.116'
-Build info: version: '4.8.0', revision: '267030adea'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
-Driver info: io.appium.java_client.android.AndroidDriver
-Command: [null, newSession {capabilities=[{appium:app=./src/main/resources/APIApp.apk, appium:appActivity=io.appium.android.apis.ApiDemos, appium:appPackage=io.appium.android.apis, appium:automationName=UiAutomator2, appium:deviceId=${deviceName}, appium:deviceName=${deviceName}, appium:newCommandTimeout=300, appium:noReset=true, platformName=ANDROID, appium:platformVersion=${osVersion}}], desiredCapabilities=Capabilities {app: ./src/main/resources/APIApp..., appActivity: io.appium.android.apis.ApiD..., appPackage: io.appium.android.apis, automationName: UiAutomator2, deviceId: ${deviceName}, deviceName: ${deviceName}, newCommandTimeout: 300, noReset: true, platformName: ANDROID, platformVersion: ${osVersion}}}]
-Capabilities {}
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:148)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
-	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
-	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:194)
-	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:229)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
-	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:80)
-	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:92)
-	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:117)
-	at org.vance.Base.ProjectBase.androidCapabilitiesSetup(ProjectBase.java:66)
-	at org.vance.Base.InitDriver.initDriver(InitDriver.java:23)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
-	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:644)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:633)
-	at org.testng.TestRunner.run(TestRunner.java:595)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-	at org.testng.TestNG.runSuites(TestNG.java:1099)
-	at org.testng.TestNG.run(TestNG.java:1067)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
-
-
-===============================================
-    Actual Device Run
-    Tests run: 1, Failures: 0, Skips: 1
-    Configuration Failures: 1, Skips: 1
-===============================================
-
+</failure>
+    <system-out><![CDATA[[INFO ] 2023-02-06 22:30:31.594 [TestNG-tests-1] LoggerLoad - TEST STOPPED
 ]]></system-out>
   </testcase>
 </testsuite>

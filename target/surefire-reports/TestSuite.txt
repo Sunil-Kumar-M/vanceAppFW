@@ -1,36 +1,10 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 1, Errors: 0, Skipped: 3, Time elapsed: 6.833 sec <<< FAILURE! - in TestSuite
-initDriver(org.vance.TestImplementation.AppSection)  Time elapsed: 6.234 sec  <<< FAILURE!
-org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Error getting device platform version. Original error: Error executing adbExec. Original error: 'Command ''C:\\Users\\Sunil Kumar\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe' -P 5037 -s RZ8M93F2Y7A shell getprop ro.build.version.release' exited with code 1'; Command output: adb.exe: device unauthorized.
-This adb server's $ADB_VENDOR_KEYS is not set
-Try 'adb kill-server' if that seems wrong.
-Otherwise check for a confirmation dialog on your device.
- 
-Host info: host: 'SUNIL', ip: '192.168.1.116'
-Build info: version: '4.8.0', revision: '267030adea'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
-Driver info: io.appium.java_client.android.AndroidDriver
-Command: [null, newSession {capabilities=[{appium:app=./src/main/resources/APIApp.apk, appium:appActivity=io.appium.android.apis.ApiDemos, appium:appPackage=io.appium.android.apis, appium:automationName=UiAutomator2, appium:deviceId=${deviceName}, appium:deviceName=${deviceName}, appium:newCommandTimeout=300, appium:noReset=true, platformName=ANDROID, appium:platformVersion=${osVersion}}], desiredCapabilities=Capabilities {app: ./src/main/resources/APIApp..., appActivity: io.appium.android.apis.ApiD..., appPackage: io.appium.android.apis, automationName: UiAutomator2, deviceId: ${deviceName}, deviceName: ${deviceName}, newCommandTimeout: 300, noReset: true, platformName: ANDROID, platformVersion: ${osVersion}}}]
-Capabilities {}
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:148)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
-	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
-	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:194)
-	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:229)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
-	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:80)
-	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:92)
-	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:117)
-	at org.vance.Base.ProjectBase.androidCapabilitiesSetup(ProjectBase.java:66)
-	at org.vance.Base.InitDriver.initDriver(InitDriver.java:23)
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 25.853 sec <<< FAILURE! - in TestSuite
+afterSuiteCompilation(org.vance.TestImplementation.AppSection)  Time elapsed: 3.458 sec  <<< FAILURE!
+java.lang.NullPointerException: null
+	at org.vance.Base.InitDriver.afterSuiteCompilation(InitDriver.java:48)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -39,12 +13,7 @@ Capabilities {}
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
 	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
 	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
-	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:644)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:633)
-	at org.testng.TestRunner.run(TestRunner.java:595)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:404)
 	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
 	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
 	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
