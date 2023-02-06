@@ -54,3 +54,15 @@
 
 
 mvn clean test -PParallelRun -DdeviceName1=NRHAZTO7Q8KJUKFY -DosVersion1=12 -DdeviceName2=RZ8M93F2Y7A -DosVersion2=11
+
+# Reference of Automation Run
+### Test Methods Result.
+![](Reference/AutomationReference1.png)
+### Overview of Test Report.
+![](Reference/AutomationReference2.png)
+
+### Reference Screen recording of Emulator.
+[![Watch the video](Reference/EmulatorRun.png)](Reference/EmulatorRun.mp4)
+
+### Reference Screen recording of Codebase.
+[![Watch the video](Reference/vanceAPPAutomationTask.png)](Reference/vanceAPPAutomationTask.mp4)
