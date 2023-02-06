@@ -1,7 +1,12 @@
 package org.vance.Base;
 
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.*;
+import org.vance.PageObjects.Dashboard.AleertDialogsObject;
+import org.vance.PageObjects.Dashboard.DashboardScreenObject;
+
 import java.io.IOException;
+import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
 public class InitDriver extends  ProjectBase{
@@ -9,6 +14,9 @@ public class InitDriver extends  ProjectBase{
     public static String appPackage;
     public static String plat;
     public static String platformName;
+    public DashboardScreenObject dash;
+    public AleertDialogsObject alrt;
+    public WebDriverWait wait;
 
     @Parameters({"platform", "appPackage", "deviceName", "udid", "OSversion", "wda", "port"})
     @BeforeTest(alwaysRun = true)
@@ -40,6 +48,7 @@ public class InitDriver extends  ProjectBase{
     @BeforeClass
     public void beforeClassInvoke(){
         System.out.println("Before Class got invoked");
+        wait = new WebDriverWait(getDriver(), Duration.ofSeconds(60));
     }
 
     @AfterSuite

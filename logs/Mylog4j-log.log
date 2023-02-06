@@ -69,3 +69,116 @@
 [INFO ] 2023-02-06 22:30:31.591 [TestNG-tests-1] LoggerLoad - Modal Title validation complete
 [INFO ] 2023-02-06 22:30:31.594 [TestNG-tests-1] LoggerLoad - TESTING COMPLETED: - appSectionFlowTest
 [INFO ] 2023-02-06 22:30:31.594 [TestNG-tests-1] LoggerLoad - TEST STOPPED
+[INFO ] 2023-02-06 23:55:44.076 [main] LoggerLoad - START: appSectionFlowTest
+[INFO ] 2023-02-06 23:55:47.358 [main] LoggerLoad - Title validation Completed
+[INFO ] 2023-02-06 23:55:48.352 [main] LoggerLoad - Clicked on App Section from list
+[INFO ] 2023-02-06 23:55:52.660 [main] LoggerLoad - Clicked on Alert Dialog
+[INFO ] 2023-02-06 23:55:54.932 [main] LoggerLoad - Modal Title validation complete
+[INFO ] 2023-02-06 23:55:54.938 [main] LoggerLoad - TESTING COMPLETED: - appSectionFlowTest
+[INFO ] 2023-02-06 23:55:54.940 [main] LoggerLoad - TEST STOPPED
+[INFO ] 2023-02-07 00:33:37.830 [main] LoggerLoad - START: dialogMessageValidation
+[ERROR] 2023-02-07 00:33:37.843 [main] LoggerLoad - FAILED : - dialogMessageValidation
+[INFO ] 2023-02-07 00:33:37.861 [main] LoggerLoad - START: longDialogMessageValidation
+[ERROR] 2023-02-07 00:33:37.861 [main] LoggerLoad - FAILED : - longDialogMessageValidation
+[INFO ] 2023-02-07 00:33:37.863 [main] LoggerLoad - TEST STOPPED
+[INFO ] 2023-02-07 00:38:29.288 [main] LoggerLoad - START: dialogMessageValidation
+[ERROR] 2023-02-07 00:38:29.301 [main] LoggerLoad - FAILED : - dialogMessageValidation
+[INFO ] 2023-02-07 00:38:29.312 [main] LoggerLoad - START: longDialogMessageValidation
+[ERROR] 2023-02-07 00:38:29.313 [main] LoggerLoad - FAILED : - longDialogMessageValidation
+[INFO ] 2023-02-07 00:38:29.317 [main] LoggerLoad - TEST STOPPED
+[INFO ] 2023-02-07 00:40:27.269 [main] LoggerLoad - START: dialogMessageValidation
+[INFO ] 2023-02-07 00:40:29.011 [main] LoggerLoad - Title validation Completed
+[INFO ] 2023-02-07 00:40:30.958 [main] LoggerLoad - Clicked on App Section from list
+[INFO ] 2023-02-07 00:40:32.417 [main] LoggerLoad - Clicked on Alert Dialog
+[INFO ] 2023-02-07 00:40:32.496 [main] LoggerLoad - Validated The Title of the Screen
+[INFO ] 2023-02-07 00:40:34.113 [main] LoggerLoad - Modal Title validation complete and accepted
+[INFO ] 2023-02-07 00:40:34.117 [main] LoggerLoad - TESTING COMPLETED: - dialogMessageValidation
+[INFO ] 2023-02-07 00:40:34.122 [main] LoggerLoad - START: longDialogMessageValidation
+[INFO ] 2023-02-07 00:40:34.779 [main] LoggerLoad - Validated The Title of the Screen
+[INFO ] 2023-02-07 00:40:36.087 [main] LoggerLoad - Modal title Validated and Accepted
+[INFO ] 2023-02-07 00:40:36.087 [main] LoggerLoad - TESTING COMPLETED: - longDialogMessageValidation
+[INFO ] 2023-02-07 00:40:36.088 [main] LoggerLoad - TEST STOPPED
+[INFO ] 2023-02-07 01:28:01.008 [main] LoggerLoad - START: dialogMessageValidation
+[INFO ] 2023-02-07 01:28:01.032 [main] LoggerLoad - START: listDialogActionValidation
+[INFO ] 2023-02-07 01:28:01.038 [main] LoggerLoad - START: textEntryDialogValidation
+[INFO ] 2023-02-07 01:28:01.043 [main] LoggerLoad - START: traditionalThemeModalValidation
+[INFO ] 2023-02-07 01:28:01.059 [main] LoggerLoad - START: longDialogMessageValidation
+[INFO ] 2023-02-07 01:28:01.064 [main] LoggerLoad - TEST STOPPED
+[INFO ] 2023-02-07 01:29:37.003 [main] LoggerLoad - START: dialogMessageValidation
+[INFO ] 2023-02-07 01:29:37.679 [main] LoggerLoad - Title validation Completed
+[INFO ] 2023-02-07 01:29:38.527 [main] LoggerLoad - Clicked on App Section from list
+[INFO ] 2023-02-07 01:29:39.397 [main] LoggerLoad - Clicked on Alert Dialog
+[INFO ] 2023-02-07 01:29:39.548 [main] LoggerLoad - Validated The Title of the Screen
+[INFO ] 2023-02-07 01:29:40.486 [main] LoggerLoad - Modal Title validation complete and accepted
+[INFO ] 2023-02-07 01:29:40.490 [main] LoggerLoad - TESTING COMPLETED: - dialogMessageValidation
+[INFO ] 2023-02-07 01:29:40.493 [main] LoggerLoad - START: listDialogActionValidation
+[INFO ] 2023-02-07 01:29:41.119 [main] LoggerLoad - Validated The Title of the Screen
+[INFO ] 2023-02-07 01:29:43.541 [main] LoggerLoad - Modal title Validated and Accepted
+[INFO ] 2023-02-07 01:29:43.542 [main] LoggerLoad - TESTING COMPLETED: - listDialogActionValidation
+[INFO ] 2023-02-07 01:29:43.543 [main] LoggerLoad - START: textEntryDialogValidation
+[INFO ] 2023-02-07 01:29:46.633 [main] LoggerLoad - Validated The Title of the Screen
+[INFO ] 2023-02-07 01:29:51.087 [main] LoggerLoad - Validated the Title of the Modal and Provided some Inputs
+[INFO ] 2023-02-07 01:29:51.088 [main] LoggerLoad - TESTING COMPLETED: - textEntryDialogValidation
+[INFO ] 2023-02-07 01:29:51.089 [main] LoggerLoad - START: traditionalThemeModalValidation
+[INFO ] 2023-02-07 01:29:51.770 [main] LoggerLoad - Validated The Title of the Screen
+[INFO ] 2023-02-07 01:29:52.755 [main] LoggerLoad - Modal title Validated and Accepted
+[INFO ] 2023-02-07 01:29:52.755 [main] LoggerLoad - TESTING COMPLETED: - traditionalThemeModalValidation
+[INFO ] 2023-02-07 01:29:52.756 [main] LoggerLoad - START: longDialogMessageValidation
+[INFO ] 2023-02-07 01:29:53.370 [main] LoggerLoad - Validated The Title of the Screen
+[INFO ] 2023-02-07 01:29:54.229 [main] LoggerLoad - Modal title Validated and Accepted
+[INFO ] 2023-02-07 01:29:54.229 [main] LoggerLoad - TESTING COMPLETED: - longDialogMessageValidation
+[INFO ] 2023-02-07 01:29:54.230 [main] LoggerLoad - TEST STOPPED
+[INFO ] 2023-02-07 01:35:50.270 [main] LoggerLoad - START: dialogMessageValidation
+[INFO ] 2023-02-07 01:35:51.573 [main] LoggerLoad - Title validation Completed
+[INFO ] 2023-02-07 01:35:53.490 [main] LoggerLoad - Clicked on App Section from list
+[INFO ] 2023-02-07 01:35:55.235 [main] LoggerLoad - Clicked on Alert Dialog
+[INFO ] 2023-02-07 01:35:55.304 [main] LoggerLoad - Validated The Title of the Screen
+[INFO ] 2023-02-07 01:35:56.742 [main] LoggerLoad - Modal Title validation complete and accepted
+[INFO ] 2023-02-07 01:35:56.747 [main] LoggerLoad - TESTING COMPLETED: - dialogMessageValidation
+[INFO ] 2023-02-07 01:35:56.751 [main] LoggerLoad - START: listDialogActionValidation
+[INFO ] 2023-02-07 01:35:57.527 [main] LoggerLoad - Validated The Title of the Screen
+[INFO ] 2023-02-07 01:36:01.666 [main] LoggerLoad - Modal title Validated and Accepted
+[INFO ] 2023-02-07 01:36:01.666 [main] LoggerLoad - TESTING COMPLETED: - listDialogActionValidation
+[INFO ] 2023-02-07 01:36:01.668 [main] LoggerLoad - START: textEntryDialogValidation
+[INFO ] 2023-02-07 01:36:03.970 [main] LoggerLoad - Validated The Title of the Screen
+[INFO ] 2023-02-07 01:36:09.654 [main] LoggerLoad - Validated the Title of the Modal and Provided some Inputs
+[INFO ] 2023-02-07 01:36:09.654 [main] LoggerLoad - TESTING COMPLETED: - textEntryDialogValidation
+[INFO ] 2023-02-07 01:36:09.655 [main] LoggerLoad - START: traditionalThemeModalValidation
+[INFO ] 2023-02-07 01:36:10.507 [main] LoggerLoad - Validated The Title of the Screen
+[INFO ] 2023-02-07 01:36:12.617 [main] LoggerLoad - Modal title Validated and Accepted
+[INFO ] 2023-02-07 01:36:12.618 [main] LoggerLoad - TESTING COMPLETED: - traditionalThemeModalValidation
+[INFO ] 2023-02-07 01:36:12.619 [main] LoggerLoad - START: longDialogMessageValidation
+[INFO ] 2023-02-07 01:36:12.699 [main] LoggerLoad - Validated The Title of the Screen
+[INFO ] 2023-02-07 01:36:14.013 [main] LoggerLoad - Modal title Validated and Accepted
+[INFO ] 2023-02-07 01:36:14.013 [main] LoggerLoad - TESTING COMPLETED: - longDialogMessageValidation
+[INFO ] 2023-02-07 01:36:14.014 [main] LoggerLoad - TEST STOPPED
+[INFO ] 2023-02-07 01:40:04.347 [main] LoggerLoad - START: dialogMessageValidation
+[INFO ] 2023-02-07 01:40:04.367 [main] LoggerLoad - START: listDialogActionValidation
+[INFO ] 2023-02-07 01:40:04.368 [main] LoggerLoad - START: textEntryDialogValidation
+[INFO ] 2023-02-07 01:40:04.370 [main] LoggerLoad - START: traditionalThemeModalValidation
+[INFO ] 2023-02-07 01:40:04.372 [main] LoggerLoad - START: longDialogMessageValidation
+[INFO ] 2023-02-07 01:40:04.373 [main] LoggerLoad - TEST STOPPED
+[INFO ] 2023-02-07 01:41:01.060 [main] LoggerLoad - START: dialogMessageValidation
+[INFO ] 2023-02-07 01:41:02.136 [main] LoggerLoad - Title validation Completed
+[INFO ] 2023-02-07 01:41:03.073 [main] LoggerLoad - Clicked on App Section from list
+[INFO ] 2023-02-07 01:41:06.723 [main] LoggerLoad - Clicked on Alert Dialog
+[INFO ] 2023-02-07 01:41:06.867 [main] LoggerLoad - Validated The Title of the Screen
+[INFO ] 2023-02-07 01:41:08.489 [main] LoggerLoad - Modal Title validation complete and accepted
+[INFO ] 2023-02-07 01:41:08.493 [main] LoggerLoad - TESTING COMPLETED: - dialogMessageValidation
+[INFO ] 2023-02-07 01:41:08.496 [main] LoggerLoad - START: listDialogActionValidation
+[INFO ] 2023-02-07 01:41:09.169 [main] LoggerLoad - Validated The Title of the Screen
+[INFO ] 2023-02-07 01:41:14.174 [main] LoggerLoad - Modal title Validated and Accepted
+[INFO ] 2023-02-07 01:41:14.175 [main] LoggerLoad - TESTING COMPLETED: - listDialogActionValidation
+[INFO ] 2023-02-07 01:41:14.176 [main] LoggerLoad - START: textEntryDialogValidation
+[INFO ] 2023-02-07 01:41:14.357 [main] LoggerLoad - Validated The Title of the Screen
+[INFO ] 2023-02-07 01:41:21.802 [main] LoggerLoad - Validated the Title of the Modal and Provided some Inputs
+[INFO ] 2023-02-07 01:41:21.802 [main] LoggerLoad - TESTING COMPLETED: - textEntryDialogValidation
+[INFO ] 2023-02-07 01:41:21.804 [main] LoggerLoad - START: traditionalThemeModalValidation
+[INFO ] 2023-02-07 01:41:22.575 [main] LoggerLoad - Validated The Title of the Screen
+[INFO ] 2023-02-07 01:41:24.218 [main] LoggerLoad - Modal title Validated and Accepted
+[INFO ] 2023-02-07 01:41:24.219 [main] LoggerLoad - TESTING COMPLETED: - traditionalThemeModalValidation
+[INFO ] 2023-02-07 01:41:24.221 [main] LoggerLoad - START: longDialogMessageValidation
+[INFO ] 2023-02-07 01:41:24.890 [main] LoggerLoad - Validated The Title of the Screen
+[INFO ] 2023-02-07 01:41:26.455 [main] LoggerLoad - Modal title Validated and Accepted
+[INFO ] 2023-02-07 01:41:26.456 [main] LoggerLoad - TESTING COMPLETED: - longDialogMessageValidation
+[INFO ] 2023-02-07 01:41:26.457 [main] LoggerLoad - TEST STOPPED

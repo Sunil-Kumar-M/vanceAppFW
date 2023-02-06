@@ -9,9 +9,9 @@
         <!--Desired Capabilities - Change the below code according to your device specification (DeviceConfiguration.text file)-->
         <parameter name="platform" value="Android"/>
         <parameter name="appPackage" value="io.appium.android.apis.ApiDemos"/>
-        <parameter name="deviceName" value="NRHAZTO7Q8KJUKFY"/>
-        <parameter name="udid" value="NRHAZTO7Q8KJUKFY"/>
-        <parameter name="OSversion" value="12"/>
+        <parameter name="deviceName" value="emulator-5554"/>
+        <parameter name="udid" value="emulator-5554"/>
+        <parameter name="OSversion" value="13"/>
         <parameter name="wda" value="8100"/>
         <parameter name="port" value="4723"/>
 
@@ -24,8 +24,8 @@
         <!--Desired Capabilities - Change the below code according to your device specification (DeviceConfiguration.text file)-->
         <parameter name="platform" value="Android"/>
         <parameter name="appPackage" value="io.appium.android.apis.ApiDemos"/>
-        <parameter name="deviceName" value="RZ8M93F2Y7A"/>
-        <parameter name="udid" value="RZ8M93F2Y7A"/>
+        <parameter name="deviceName" value="emulator-5556"/>
+        <parameter name="udid" value="emulator-5556"/>
         <parameter name="OSversion" value="11"/>
         <parameter name="wda" value="8200"/>
         <parameter name="port" value="4724"/>
